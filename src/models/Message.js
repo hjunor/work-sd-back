@@ -9,4 +9,4 @@ const MessageSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model('message', MessageSchema);
+module.exports = mongoose.model('message', MessageSchema); //Model usado nas mensagem, utilizando padrão do MongoDB
