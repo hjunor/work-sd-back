@@ -1,5 +1,5 @@
 require('dotenv').config(); // Biblioteca de leitura de variaveis de ambiente.
-require('./service/database'); // Execução da conecção do banco de dados.
+require('./service/database'); // Execução da conexão do banco de dados.
 const express = require('express');
 const cors = require('cors');
 
@@ -13,7 +13,7 @@ const io = require('socket.io')(server, {
     origin: 'https://sochat.netlify.app',
     methods: ['GET', 'POST'],
   },
-}); // Abrindo intsnacia do socket com todos os parametros do express dentro do server.
+}); // Abrindo intancia do socket com todos os parametros do express dentro do server.
 
 app.use(cors()); //Utilizando cors na aplicação.
 app.use(express.json()); //Utilizando o padrão json na aplicação.
