@@ -13,7 +13,7 @@ Sochat
 </p>
 
 <h2>
-Hero Link
+Sochat
 </h2>
 
 ## 🚀 Descrição da Aplicação
